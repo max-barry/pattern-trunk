@@ -1,0 +1,3 @@
+[submodule "javascript"]
+	path = javascript
+	url = git@github.com:max-barry/pattern-trunk-javascript.git
