@@ -6,6 +6,11 @@ module.exports = function(grunt) {
             updatesubmodules: {
                 "command": "git submodule foreach --recursive git pull"
             }
+        },
+        bump: {
+            options: {
+                pushTo: "origin"
+            }
         }
     });
 
