@@ -2,7 +2,7 @@
     "name": "pattern-trunk",
     "title": "Pattern Trunk",
     "description": "A collection of submodules containing useful, repeated patterns in various languages and disciplines.",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "keywords": [
         "design-patterns",
         "javascript",
