@@ -4,6 +4,6 @@
 [submodule "search"]
 	path = search
 	url = git@github.com:max-barry/pattern-trunk-search.git
-[submodule "scss"]
+[submodule "pattern-trunk-scss"]
 	path = scss
 	url = git@github.com:max-barry/pattern-trunk-scss.git
