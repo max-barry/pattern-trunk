@@ -5,5 +5,5 @@
 	path = search
 	url = git@github.com:max-barry/pattern-trunk-search.git
 [submodule "pattern-trunk-scss"]
-	path = scss
+	path = pattern-trunk-scss
 	url = git@github.com:max-barry/pattern-trunk-scss.git
