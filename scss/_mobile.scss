@@ -1,0 +1,10 @@
+/**
+Mobile tap highlight set to transparent
+*/
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+
+/**
+Disables context menus on mobile holds.
+@link http://css-infos.net/property/-webkit-touch-callout
+*/
+-webkit-touch-callout: none;
