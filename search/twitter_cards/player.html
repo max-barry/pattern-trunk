@@ -1,0 +1,30 @@
+<!--
+Player - https://dev.twitter.com/cards/types/player
+
+N.B. "All paths must be secure (https://)"
+     Make sure to reference the rules for validation of a player card. Found at link above.
+
+
+twitter:player          - required - HTTPS URL to iframe player
+twitter:player:width    - required - Width of iframe specified in twitter:player (px)
+twitter:player:height   - required - Height of iframe specified in twitter:player (px)
+
+twitter:player:stream              - "URL to raw stream that will be rendered in Twitter's mobile applications"
+                                     Video - "H.264, Baseline Profile (BP), Level 3.0, up to 640 x 480 at 30 fps."
+                                     Audio - "AAC, Low Complexity Profile (LC)"
+twitter:player:content_type        - (required if stream provided)
+                                     MIME type/subtype for stream
+
+twitter:image           - required - "Images must be the same dimensions as your player.
+                                     Images with less than 68,600px will will cause the player not to render"
+
+-->
+
+<meta name="twitter:card" content="player">
+
+<meta name="twitter:player" content="">
+<meta name="twitter:player:width" content="">
+<meta name="twitter:player:height" content="">
+
+<meta name="twitter:player:stream" content="">
+<meta name="twitter:player:content_type" content="">

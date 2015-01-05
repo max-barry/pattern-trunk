@@ -1,0 +1,51 @@
+<!-- Advanced Meta - For specific use cases, or more though out implementation -->
+
+<!--
+canonical
+
+Used to collect (nearly) identical content under the same URL.
+
+For example:
+myexample.com/posts?page=2 and myexample.com/posts contain similar/identical content filtered and sliced
+in two different ways. If both contain myexample.com/posts as their canonical URL, crawlers will unify their content
+-->
+<link rel="canonical" href="" />
+
+<!--
+robots - https://support.google.com/webmasters/answer/79812?hl=en
+
+Meta based directives for search engines. Use "googlebot" to specifically target Google.
+
+Potential values:
+  -  noindex:                   prevents page from being indexed
+  -  nofollow:                  prevents crawler following links on the page
+  -  nosnippet:                 prevents a snippet from being shown in search results
+  -  noodp:                     prevents the alternative description from the ODP/DMOZ from being used
+  -  noarchive:                 prevents cached link of page existing
+  -  unavailable_after:[date]   exact time and date to stop indexing and crawling of page
+  -  noimageindex:              prevents page from being referral page for a Google image result
+
+Default: "index,follow"
+-->
+<meta name="robots" content="index,follow">
+
+<!--
+google-site-verification
+
+Verifies ownership of site for Google Webmaster Tools.
+
+-->
+<meta name="google-site-verification" content="">
+
+<!--
+refresh
+
+Refreshes the page after after a given period of time.
+If the time provided is 0, then the refresh will be immediate.
+
+In the example below, the current page will refresh to http://example.com after 0 seconds
+-->
+<meta http-equiv="refresh" content="0; url=http://example.com">
+
+<!-- Other -->
+<meta name="google" content="notranslate">
