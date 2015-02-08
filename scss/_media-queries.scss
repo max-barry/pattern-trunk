@@ -2,7 +2,7 @@
 Media query break points.
 */
 $xsmall-break: 380 !default;
-$small-break: 640 !default;
+$small-break: 680 !default;
 $medium-break: 1024 !default;
 $large-break: 1440 !default;
 
@@ -11,11 +11,11 @@ $large-break: 1440 !default;
 Media query ranges based on the break points provided.
 @private
 */
-$xsmall-range: (0rem, rem($xsmall-break)) !default;
-$small-range: (rem($xsmall-break + 1), rem($small-break)) !default;
-$medium-range: (rem($small-break + 1), rem($medium-break)) !default;
-$large-range: (rem($medium-break + 1), rem($large-break)) !default;
-$xlarge-range: (rem($large-break + 1)) !default;
+$xsmall-range: (0rem, $xsmall-break) !default;
+$small-range: ($xsmall-break + 1, $small-break) !default;
+$medium-range: ($small-break + 1, $medium-break) !default;
+$large-range: ($medium-break + 1, $large-break) !default;
+$xlarge-range: ($large-break + 1) !default;
 
 /**
 Necessary functions for media queries to be built
