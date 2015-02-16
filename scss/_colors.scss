@@ -1,0 +1,13 @@
+/**
+Returns the lightest possible visible shade of a color.
+*/
+@function returnLightestShade($color) {
+    @return lighten($color, 100 - ceil(lightness($color)/1%) - 5);
+}
+
+/**
+Returns the darkest possible non-black shade of a color.
+*/
+@function returnDarkestShade($color) {
+    @return darken($color, ceil(lightness($color)/1%)*0.5);
+}
