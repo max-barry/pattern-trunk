@@ -1,2 +1,2 @@
 # pattern-trunk
-A collection of repeated patterns, in numerous languages and disciplines.#
+A collection of repeated patterns, in numerous languages and disciplines.
