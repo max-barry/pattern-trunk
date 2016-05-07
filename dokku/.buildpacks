@@ -1,0 +1,4 @@
+https://github.com/heroku/heroku-buildpack-nodejs.git
+
+# If using NGINX buildpack, your application build directory needs to be ./html/
+https://github.com/mgmco/heroku-buildpack-nginx.git
