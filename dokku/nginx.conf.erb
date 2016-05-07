@@ -74,5 +74,10 @@ http {
       deny all;
       <% if ENV["NGINX_DEBUG"] %>add_header Nginx-Denied on;<% end %>
     }
+
+    location ~*  \.(jpg|jpeg|png|gif|svg|ico|css|js|woff|woff2|ttf|woff|eot)$ {
+       expires 31d;
+    }
+
   }
 }
